@@ -17,8 +17,12 @@
 
 SSH登上路由宝后（win下推荐使用putty，linux和mac下自带控制台SSH客户端），输入以下命令
 
-cd /tmp
-wget http://breed.hackpascal.net/breed-mt7620-youku-yk1.bin 或者wget https://raw.githubusercontent.com/mengzhihoing/youku/master/breed-mt7620-youku-yk1.bin
-mtd -r write /tmp/breed-mt7620-youku-yk1.bin mtd1
-成功之后路由器会自动重启，重新连接后，按住路由器复位键不松手，断电，插电，等几秒钟后松手。自己的电脑IP设置为自动获取，在浏览器登陆http://192.168.1.1就可以了。
+cd /tmp  
+
+wget http://breed.hackpascal.net/breed-mt7620-youku-yk1.bin   
+或者  
+wget https://raw.githubusercontent.com/mengzhihoing/youku/master/breed-mt7620-youku-yk1.bin  
+  
+mtd -r write /tmp/breed-mt7620-youku-yk1.bin mtd1  
+成功之后路由器会自动重启，重新连接后，按住路由器复位键不松手，断电，插电，等几秒钟后松手。自己的电脑IP设置为自动获取，在浏览器登陆  http://192.168.1.1  就可以了。
 
